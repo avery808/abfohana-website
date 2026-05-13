@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 230" width="420" height="230">
+  <defs>
+    <linearGradient id="goldMark" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#8A6818"/>
+      <stop offset="30%"  stop-color="#C9A030"/>
+      <stop offset="55%"  stop-color="#F0D070"/>
+      <stop offset="80%"  stop-color="#D4AA40"/>
+      <stop offset="100%" stop-color="#9A7820"/>
+    </linearGradient>
+    <linearGradient id="goldTag" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#C9A84C"/>
+      <stop offset="50%"  stop-color="#E8C96B"/>
+      <stop offset="100%" stop-color="#C9A84C"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Large roof peak -->
+  <polyline
+    points="95,152 182,52 232,114"
+    stroke="url(#goldMark)" stroke-width="25"
+    stroke-linecap="butt" stroke-linejoin="miter" fill="none"/>
+
+  <!-- Small roof peak -->
+  <polyline
+    points="252,98 292,58 334,112"
+    stroke="url(#goldMark)" stroke-width="19"
+    stroke-linecap="butt" stroke-linejoin="miter" fill="none"/>
+
+  <!-- ABF OHANA -->
+  <text x="210" y="174"
+    font-family="'Gill Sans','Century Gothic','Futura',Arial,sans-serif"
+    font-size="34" font-weight="300" letter-spacing="8"
+    fill="#2C2C2C" text-anchor="middle">ABF OHANA</text>
+
+  <!-- BUILD YOUR LEGACY -->
+  <text x="210" y="200"
+    font-family="'Gill Sans','Century Gothic','Futura',Arial,sans-serif"
+    font-size="11.5" font-weight="400" letter-spacing="5"
+    fill="url(#goldTag)" text-anchor="middle">BUILD YOUR LEGACY</text>
+</svg>
