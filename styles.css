@@ -1031,7 +1031,7 @@ img { max-width: 100%; display: block; }
 }
 
 .story-family-photo {
-  object-position: center center;
+  object-position: center 30%;
   filter: brightness(1.35) contrast(1.1) saturate(1.25);
 }
 
