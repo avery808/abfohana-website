@@ -326,7 +326,21 @@
     </div>
   </footer>
 
+  <!-- STICKY MOBILE CTA -->
+  <div class="sticky-cta" id="stickyCta">
+    <a href="#book" class="sticky-cta-btn">Book Your Free Strategy Call</a>
+  </div>
+
   <script src="script.js"></script>
   <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+  <script>
+    // Hide sticky CTA when booking section is visible
+    const stickyCta = document.getElementById('stickyCta');
+    const bookSection = document.getElementById('book');
+    const observer = new IntersectionObserver(entries => {
+      stickyCta.style.display = entries[0].isIntersecting ? 'none' : 'flex';
+    }, { threshold: 0.1 });
+    observer.observe(bookSection);
+  </script>
 </body>
 </html>
